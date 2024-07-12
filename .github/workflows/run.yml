@@ -6,7 +6,7 @@ on:
       - master
   schedule:
     - cron: '*/200 * * * *'
-
+ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true
 env:
   UPDATE_IPV4: true
   UPDATE_IPV6: false
